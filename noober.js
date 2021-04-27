@@ -6,5 +6,9 @@ window.addEventListener('DOMContentLoaded', async function() {
   console.dir(json)
   
   // 🔥 start here: write the recipe (algorithm), then write the code
-  
+  // loop through the json
+  for (let i=0; i < json.length; i++) {
+    console.log(json[i])
+  }
 })
+
